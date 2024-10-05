@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilo.css">
-    <title>Exercicio 1</title>
+    <title>Exercicio 2</title>
 </head>
 <body>
     <header class="incrito">
         <h3>Digite seu nome completo:</h3>
         <input type="text" id="nome" placeholder="Nome completo">
+        <h3>Digite seu número de inscrição:</h3>
+        <input type="text" id="nInscricao" placeholder="Número inscrição">
+        <h3>Digite seu número de inscrição:</h3>
+        <input type="date" id="date" >
 
     </header>
 
@@ -17,18 +21,28 @@
         <h2>Digite suas Notas abaixos</h2>
 
         <input type="number" id="natureza" placeholder="Natureza">
+        <h4 id="nResult"></h4>
         <br>
         <input type="number" id="humanas" placeholder="Humanas">
+        <h4 id="hResult"></h4>
         <br>
         <input type="number" id="linguagens" placeholder="Linguagens">
+        <h4 id="lResult"></h4>
         <br>
         <input type="number" id="matematica" placeholder="Matematica">
+        <h4 id="mResult"></h4>
         <br>
         <input type="number" id="redacao" placeholder="Redação">
-        <br>
+        <h4 id="rResult"></h4>
+        <br><br>
         
     </section>
-    <button onclick="exibirTexto();" type="button">Exibir</button>
+
+    <section>
+        <h4 id="text"></h4>
+    </section>
+
+    <button class="btn" type="button">Resultado</button>
     <script src="js/script.js"></script>
 
 </body>
