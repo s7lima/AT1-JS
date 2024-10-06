@@ -1,0 +1,42 @@
+html{
+    font-family: Arial, Helvetica, sans-serif
+}
+#corpo{
+    background-color: #ecf1f1;
+    max-width: 1100px;
+    padding: 50px 50px;
+    margin: 50px auto;
+    position: relative;
+    border: 2px solid;
+}
+.inscrito{
+    padding-bottom: 10px;
+}
+
+.notas  {
+    text-align: center;
+    background-color: rgba(103, 110, 110, 0.274);
+    padding: 10px;
+}
+
+.resultados h4{
+    border: 2px solid black;
+}
+
+.aprovado {
+    color: blue; 
+    font-weight: bold;
+}
+
+.reprovado {
+    color: red; 
+    font-weight: bold;
+}
+.recuperacao {
+    color: orange;
+    font-style: italic; 
+}
+
+.notas {
+   border: 2px solid black;
+}
