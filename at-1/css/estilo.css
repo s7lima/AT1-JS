@@ -1,0 +1,32 @@
+html{
+    font-family: Arial, Helvetica, sans-serif
+}
+body{
+    
+    max-width: 700px;
+    padding: 50px 50px;
+    margin: 50px auto;
+    position: relative;
+}
+.corpo{
+    background-color: #d6d6d6;
+    max-width: 1100px;
+    padding: 50px 50px;
+    margin: 50px auto;
+    position: relative;
+    border: 2px solid;
+}
+
+.rFim{
+    background-color: #d6d6d6;
+    max-width: 1100px;
+    padding: 50px 50px;
+    margin: 50px auto;
+    position: relative;
+    border: 2px solid;
+}
+
+#resultFim {
+    font-size: 19px;
+    border-bottom: 2px solid black;
+}
